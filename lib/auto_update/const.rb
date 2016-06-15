@@ -1,4 +1,17 @@
 module AutoUpdate
+  AW_NO_STATUS = 'X'
+  AW_RE_ERROR = 'E'
+  AW_UNCHECKED = '0'
+  AW_CHECKED = '1'
+  AW_INVALID_PASSWORD = '2'
+  AW_LOCKOUT = '3'
+  AW_PROVIDER_ERROR = '4'
+  AW_PROVIDER_DISABLED = '5'
+  AW_ENGINE_ERROR = '6'
+  AW_WARNING = '7'
+  AW_QUESTION = '10'
+  AW_TIMEOUT = '11'
+
   STATUS_NEW = 'credential_required'
   STATUS_CREDENTIAL_REQUIRED = 'credential_required'
   STATUS_QUESTION = 'question'
