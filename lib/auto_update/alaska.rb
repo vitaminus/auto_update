@@ -7,7 +7,7 @@ module AutoUpdate
     include Capybara::DSL
     # AutoUpdate.capybara_settings
     Capybara.default_driver = :poltergeist
-    Capybara.default_wait_time = 8
+    Capybara.default_max_wait_time = 8
 
     attr_reader :login, :password
     def initialize(login, password)
