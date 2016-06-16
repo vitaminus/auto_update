@@ -75,6 +75,7 @@ module AutoUpdate
 
     def send_question
       sleep 2
+      close_popup
       unless first(".question").nil?
         question_text = page.find('.question').text
       end
